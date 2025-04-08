@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-08T16:22:26 PKT" name="SauceDemo Suite" finished-at="2025-04-08T16:23:06 PKT" duration-ms="39805">
+    <groups>
+    </groups>
+    <test started-at="2025-04-08T16:22:26 PKT" name="Login Test" finished-at="2025-04-08T16:23:06 PKT" duration-ms="39805">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@43195e57]" started-at="2025-04-08T16:22:26 PKT" name="setup" finished-at="2025-04-08T16:22:39 PKT" duration-ms="12861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:0, instance:test.LoginTest@43195e57]" started-at="2025-04-08T16:22:39 PKT" name="testValidLogin" finished-at="2025-04-08T16:22:39 PKT" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@43195e57]" started-at="2025-04-08T16:22:39 PKT" name="tearDown" finished-at="2025-04-08T16:22:40 PKT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.CheckOutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.CheckOutTest@6d763516]" started-at="2025-04-08T16:22:43 PKT" name="setup" finished-at="2025-04-08T16:22:45 PKT" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckOut()[pri:0, instance:test.CheckOutTest@6d763516]" started-at="2025-04-08T16:22:45 PKT" name="CheckOut" finished-at="2025-04-08T16:22:47 PKT" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckOutTest@6d763516]" started-at="2025-04-08T16:22:47 PKT" name="tearDown" finished-at="2025-04-08T16:22:48 PKT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CheckOutTest -->
+      <class name="test.sortProductsLowToHigh">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.sortProductsLowToHigh@515aebb0]" started-at="2025-04-08T16:23:00 PKT" name="setup" finished-at="2025-04-08T16:23:01 PKT" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:test.sortProductsLowToHigh@515aebb0]" started-at="2025-04-08T16:23:01 PKT" name="testSortByPriceLowToHigh" finished-at="2025-04-08T16:23:05 PKT" duration-ms="3865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.sortProductsLowToHigh@515aebb0]" started-at="2025-04-08T16:23:05 PKT" name="tearDown" finished-at="2025-04-08T16:23:06 PKT" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.sortProductsLowToHigh -->
+      <class name="test.sortProductsHighToLow">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.sortProductsHighToLow@37afeb11]" started-at="2025-04-08T16:22:54 PKT" name="setup" finished-at="2025-04-08T16:22:55 PKT" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSortByPriceLowToHigh()[pri:0, instance:test.sortProductsHighToLow@37afeb11]" started-at="2025-04-08T16:22:55 PKT" name="testSortByPriceLowToHigh" finished-at="2025-04-08T16:22:59 PKT" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.sortProductsHighToLow@37afeb11]" started-at="2025-04-08T16:22:59 PKT" name="tearDown" finished-at="2025-04-08T16:23:00 PKT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.sortProductsHighToLow -->
+      <class name="test.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.AddToCartTest@2a798d51]" started-at="2025-04-08T16:22:40 PKT" name="setup" finished-at="2025-04-08T16:22:42 PKT" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:test.AddToCartTest@2a798d51]" started-at="2025-04-08T16:22:42 PKT" name="testAddProductToCart" finished-at="2025-04-08T16:22:43 PKT" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@2a798d51]" started-at="2025-04-08T16:22:43 PKT" name="tearDown" finished-at="2025-04-08T16:22:43 PKT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.RemoveProductFromCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.RemoveProductFromCart@52bf72b5]" started-at="2025-04-08T16:22:48 PKT" name="setup" finished-at="2025-04-08T16:22:49 PKT" duration-ms="1945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RemoveProductFromCart()[pri:0, instance:test.RemoveProductFromCart@52bf72b5]" started-at="2025-04-08T16:22:49 PKT" name="RemoveProductFromCart" finished-at="2025-04-08T16:22:53 PKT" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RemoveProductFromCart@52bf72b5]" started-at="2025-04-08T16:22:53 PKT" name="tearDown" finished-at="2025-04-08T16:22:54 PKT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.RemoveProductFromCart -->
+    </test> <!-- Login Test -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>
